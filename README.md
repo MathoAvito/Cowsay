@@ -16,12 +16,12 @@ Go to:
 ## Custom Init
 If you would like to change the port of the app, the container's name or image's name, then execute the commands below:
 <ul>
-  <li>docker build -t <image_name> .</li>
-  <li>docker run -d -p <your_port>:8080 --name cowsay cowsay</li>
+  <li>docker build -t <\image_name> .</li>
+  <li>docker run -d -p <\your_port>:8080 --name cowsay cowsay</li>
 </ul>
 
 now go to:  
-http://localhost:<your_port>/)  
+http://localhost:<\your_port>/  
 
 Enjoy! Don't forget to refresh a few times so you'll see a variety of wisdom phrases.  
 <sub>If you are not running on localhost, just browse http://<your_IP>:<your_port>/</sub>
@@ -30,6 +30,9 @@ Enjoy! Don't forget to refresh a few times so you'll see a variety of wisdom phr
 
 <img width="357" alt="screen shot 2018-03-20 at 10 45 11 pm" src="https://user-images.githubusercontent.com/8520661/37696081-290403f0-2c91-11e8-9611-2ee8cbbfe877.png">
 
+
+Original README
+===============	
 ## Background
 This is a minor re-write of [Cowsay Node](https://github.com/BibbyChung/cowsay-node) by Bibby Chung
 
