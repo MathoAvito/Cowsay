@@ -1,7 +1,7 @@
 Dockerization
 ===============	
-This is my dockerization of Cowsay app! (see below)
-There's no docker-compose file yet (soon)
+This is my dockerization of Cowsay app! (see below)  
+It is a light version image, based on alpine.
 
 ## Init
 After cloning the repo, execute the commands below:
@@ -10,11 +10,11 @@ After cloning the repo, execute the commands below:
   <li>docker run -d -p 1234:8080 --name cowsay cowsay</li>
 </ul>
 
-
 now go to:
-[Cowsay](http://localhost:1234/)
+[Cowsay](http://localhost:1234/)  
 
-*localhost=your IP address
+Enjoy! Don't forget to refresh a few times so you'll see a variety of wisdom phrases.  
+#####If you are not running on localhost, just browse http://<your_IP>:1234/
 
 
 
