@@ -5,12 +5,14 @@ There's no docker-compose file yet (soon)
 
 ## Init
 After cloning the repo, execute the commands below:
-docker build -t cowsay .
-docker run -d -p 1234:8080 --name cowsay cowsay
+<ul>
+  <li>docker build -t cowsay .</li>
+  <li>docker run -d -p 1234:8080 --name cowsay cowsay</li>
+</ul>
+
 
 now go to:
-[link](http://localhost:1234/)
-<a href="http://localhost:1234/ Cowsay">link</a>
+[Cowsay](http://localhost:1234/)
 
 *localhost=your IP address
 
