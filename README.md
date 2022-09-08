@@ -14,7 +14,7 @@ now go to:
 [Cowsay](http://localhost:1234/)  
 
 Enjoy! Don't forget to refresh a few times so you'll see a variety of wisdom phrases.  
-#####If you are not running on localhost, just browse http://<your_IP>:1234/
+<sub>If you are not running on localhost, just browse http://<your_IP>:1234/</sub>
 
 
 
