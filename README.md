@@ -4,17 +4,27 @@ This is my dockerization of Cowsay app! (see below)
 It is a light version image, based on alpine.
 
 ## Init
-After cloning the repo, execute the commands below:
+After cloning the repo, just run:
 <ul>
-  <li>docker build -t cowsay .</li>
-  <li>docker run -d -p 1234:8080 --name cowsay cowsay</li>
+  <li>./init-cowsay.sh</li>
+</ul>  
+The app is now running on port 4001 on your local machine.  
+
+Go to:
+[Cowsay](http://localhost:4001/)  
+
+## Custom Init
+If you would like to change the port of the app, the container's name or image's name, then execute the commands below:
+<ul>
+  <li>docker build -t <image_name> .</li>
+  <li>docker run -d -p <your_port>:8080 --name cowsay cowsay</li>
 </ul>
 
-now go to:
-[Cowsay](http://localhost:1234/)  
+now go to:  
+http://localhost:<your_port>/)  
 
 Enjoy! Don't forget to refresh a few times so you'll see a variety of wisdom phrases.  
-<sub>If you are not running on localhost, just browse http://<your_IP>:1234/</sub>
+<sub>If you are not running on localhost, just browse http://<your_IP>:<your_port>/</sub>
 
 
 
