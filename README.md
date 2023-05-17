@@ -5,9 +5,11 @@ It is a light version image, based on alpine.
 
 ## Init
 After cloning the repo, just run:
-<ul>
-  <li>./init-cowsay.sh</li>
-</ul>  
+
+```bash
+./init-cowsay.sh
+```
+
 The app is now running on port 4001 on your local machine.  
 
 Go to:
@@ -15,13 +17,14 @@ Go to:
 
 ## Custom Init
 If you would like to change the port of the app, the container's name or image's name, then execute the commands below:
-<ul>
-  <li>docker build -t <\image_name> .</li>
-  <li>docker run -d -p <\your_port>:8080 --name cowsay cowsay</li>
-</ul>
+
+```bash
+docker build -t <image_name> 
+docker run -d -p <your_port>:8080 --name cowsay cowsay
+```
 
 now go to:  
-http://localhost:<\your_port>/  
+http://localhost:<\your_port>/
 
 Enjoy! Don't forget to refresh a few times so you'll see a variety of wisdom phrases.  
 <sub>If you are not running on localhost, just browse http://<your_IP>:<your_port>/</sub>
